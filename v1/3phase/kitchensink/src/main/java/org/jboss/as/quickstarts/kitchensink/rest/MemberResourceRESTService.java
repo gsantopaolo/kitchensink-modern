@@ -41,7 +41,7 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
 import org.jboss.as.quickstarts.kitchensink.business.data.MemberRepository;
-import org.jboss.as.quickstarts.kitchensink.model.Member;
+import com.example.kitchensink.model.Member;
 import org.jboss.as.quickstarts.kitchensink.service.MemberRegistration;
 
 /**

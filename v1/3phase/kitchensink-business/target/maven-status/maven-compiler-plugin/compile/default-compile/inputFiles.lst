@@ -1,4 +1,4 @@
-/Users/gp/Developer/java-samples/kitchensink-modern/v1/2phase/kitchensink-business/src/main/java/org/jboss/as/quickstarts/kitchensink/business/Application.java
-/Users/gp/Developer/java-samples/kitchensink-modern/v1/2phase/kitchensink-business/src/main/java/org/jboss/as/quickstarts/kitchensink/business/data/MemberListProducer.java
-/Users/gp/Developer/java-samples/kitchensink-modern/v1/2phase/kitchensink-business/src/main/java/org/jboss/as/quickstarts/kitchensink/business/data/MemberRepository.java
-/Users/gp/Developer/java-samples/kitchensink-modern/v1/2phase/kitchensink-business/src/main/java/org/jboss/as/quickstarts/kitchensink/model/Member.java
+/Users/gp/Developer/java-samples/kitchensink-modern/v1/3phase/kitchensink-business/src/main/java/com/example/kitchensink/business/event/MemberRegisteredEvent.java
+/Users/gp/Developer/java-samples/kitchensink-modern/v1/3phase/kitchensink-business/src/main/java/com/example/kitchensink/business/model/Member.java
+/Users/gp/Developer/java-samples/kitchensink-modern/v1/3phase/kitchensink-business/src/main/java/com/example/kitchensink/business/repo/MemberRepository.java
+/Users/gp/Developer/java-samples/kitchensink-modern/v1/3phase/kitchensink-business/src/main/java/com/example/kitchensink/business/service/MemberRegistration.java

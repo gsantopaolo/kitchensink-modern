@@ -16,7 +16,7 @@
  */
 package org.jboss.as.quickstarts.kitchensink.service;
 
-import org.jboss.as.quickstarts.kitchensink.model.Member;
+import com.example.kitchensink.model.Member;
 
 import jakarta.ejb.Stateless;
 import jakarta.enterprise.event.Event;
