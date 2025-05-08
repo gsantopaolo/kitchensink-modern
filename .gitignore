@@ -1,0 +1,42 @@
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+.env
+*.mp4
+*.wav
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# ignore Python cache files
+__pycache__/
+deployment/terraform/.terraform/
+
+# ignore data path
+data/
+excluded/
+
+
+
+# ignore inteliJIdea configs
+.idea/
+
+test/train_dataset_minecraft-question-answer-700k.json
+test/train_dataset.json
+server.txt
+
+test/train_dataset_*.json
+test/MNIST
+/v1/2phase/kitchensink-util/target
+/v1/2phase/kitchensink-business/target
+/v1/0original/kitchensink/target
+/v1/2phase/kitchensink/target
