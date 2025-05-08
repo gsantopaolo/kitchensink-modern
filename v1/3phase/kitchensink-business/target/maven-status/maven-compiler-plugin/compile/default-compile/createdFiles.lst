@@ -1,0 +1,4 @@
+org/jboss/as/quickstarts/kitchensink/model/Member.class
+org/jboss/as/quickstarts/kitchensink/business/data/MemberRepository.class
+org/jboss/as/quickstarts/kitchensink/business/data/MemberListProducer.class
+org/jboss/as/quickstarts/kitchensink/business/Application.class
