@@ -76,15 +76,6 @@ mvn spring-boot:run
 
 ---
 
-## Configuration
-
-Default ports and other properties live in each module’s `src/main/resources/application.properties`. To override at runtime, use JVM system properties:
-
-```bash
-mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Dserver.port=9090"
-```
-
----
 
 ## Migration Approach
 
@@ -95,10 +86,11 @@ mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Dserver.port=9090"
    Replaced JBoss-specific wiring with Spring Boot starters (Web, Data JPA, Thymeleaf), reducing boilerplate and leveraging convention-over-configuration.
 
 3. **Incremental Refactoring**
+    * Step 1: Migrated (`kitchensink-util`) (JAR targeting Java 21) first while keeping anything else to the legacy (`kitchensink`) app.
+    * Step 2: Migrated (`kitchensink-business`) (JAR targeting Java 21) containing the core business logic and the data layer while keeping anything else to the legacy (`kitchensink`) app.
+    * Step 3: Spring Boot migration. The legacy (`kitchensink`) at this point containing only the web app and the API whas split into two different project and migrated to Spring Boot
 
-    * Migrated JPA entities and repository interfaces first, with in-memory H2 for local dev
-    * Layered on service components (`MemberRegistration`, etc.)
-    * Finally plugged in Thymeleaf views and REST controllers in separate modules
+Find a detailed step by step guide of the process in the doc folder.
 
 4. **Risk Mitigation**
 
