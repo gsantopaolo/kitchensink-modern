@@ -90,10 +90,6 @@ mvn spring-boot:run
 
 Find a detailed step-by-step guide of the process in the [doc](https://github.com/gsantopaolo/kitchensink-modern/tree/main/docs) folder.
 
-4. **Risk Mitigation**
 
-    * Kept legacy and new code paths side-by-side until feature parity
-    * Wrote unit tests around critical domain services before UI work
-    * Used Maven profiles to switch easily between original JBoss recipe and Spring-based flow
 
 
