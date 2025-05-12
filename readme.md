@@ -11,8 +11,6 @@ This project migrates the legacy JBoss “kitchensink” application into a Spri
 
 - **Java 21**
 - **Spring Boot 3.x**
-- **Maven** multi-module build
-- **Thymeleaf**–powered UI and REST API modules
 
 ---
 
@@ -90,7 +88,7 @@ mvn spring-boot:run
     * Step 2: Migrated (`kitchensink-business`) (JAR targeting Java 21) containing the core business logic and the data layer while keeping anything else to the legacy (`kitchensink`) app.
     * Step 3: Spring Boot migration. The legacy (`kitchensink`) at this point containing only the web app and the API whas split into two different project and migrated to Spring Boot
 
-Find a detailed step by step guide of the process in the doc folder.
+Find a detailed step-by-step guide of the process in the [doc](https://github.com/gsantopaolo/kitchensink-modern/tree/main/docs) folder.
 
 4. **Risk Mitigation**
 
