@@ -1,4 +1,0 @@
-com/example/kitchensink/business/model/Member.class
-com/example/kitchensink/business/service/MemberRegistration.class
-com/example/kitchensink/business/event/MemberRegisteredEvent.class
-com/example/kitchensink/business/repo/MemberRepository.class
